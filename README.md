@@ -1,6 +1,10 @@
+![bigstock-Rottweiler-328396071](/Users/rr/Downloads/bigstock-Rottweiler-328396071.jpg)
+
 # MonitoringAndUpload
+
  A watchdog tool that uploads the modifications of local files to a remote server.
  It is very simple it needs only to have:
+
 - one local directory to be watched
 - one remote directory that you would like to sync with the local one
 - password and ip of the server
