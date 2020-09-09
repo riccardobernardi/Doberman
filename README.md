@@ -5,14 +5,40 @@
 - one remote directory that you would like to sync with the local one
 - password and ip of the server
 
-To run the tool enter the directory of this app with the command:
 
-,,,{bash}
+
+Compatibility:
+
+- MacOs -> natively
+- Linux -> natively
+- WinOs -> we don't like it but if you install Ubuntu subsystem it will hopefully work:)
+
+
+
+[RUN] To run the tool enter the directory of this app with the command:
+
+```bash
 cd /Users/...fill with the actual path here.../MonitoringAndUpload
-,,,
+```
 
-Then type this:
+[RUN] Then type this:
 
-,,,{python}
+```bash
 python3 main.py directory_to_watch_path username password server_ip remote_directory
-,,,
+```
+
+
+
+Issues:
+
+- Drop me an email: [riccardo.bernardi@rocketmail.com](mailto:riccardo.bernardi@rocketmail.com)
+- Linkedin: https://www.linkedin.com/in/riccardobernardi/
+
+
+
+Are you happy with this?
+
+- drop me a star
+- fork
+- write me an email and we can start a partnership
+
