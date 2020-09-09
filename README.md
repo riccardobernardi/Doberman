@@ -15,11 +15,31 @@ Compatibility:
 
 
 
+[SETUP]
+
+Make a list of the things that you would like to monitor! An example here:
+
+```python
+import os
+
+def to_watch(dir_path):
+	with open("./files_to_monitor.txt",mode="w") as ff:
+		ff.write("\n".join(arr))
+		
+to_watch(...)
+```
+
+Does the txt file need to be called "files_to_monitor.txt"? Yes, please.
+
+
+
 [RUN] To run the tool enter the directory of this app with the command:
 
 ```bash
 cd /Users/...fill with the actual path here.../MonitoringAndUpload
 ```
+
+
 
 [RUN] Then type this:
 
