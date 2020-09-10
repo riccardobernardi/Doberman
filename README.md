@@ -1,4 +1,4 @@
-![bigstock-Rottweiler-328396071](https://www.dognotebook.com/wp-content/uploads/2015/04/bigstock-Rottweiler-328396071.jpg)
+![doberman](https://img.point.pet/images/doberman-171840260-resized-56a26aa35f9b58b7d0c9ff92.jpg)
 
 # MonitoringAndUpload
 
