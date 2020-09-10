@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="doberman",
-    version="0.0.2",
+    version="0.0.3",
     author="Bernardi Riccardo",
     author_email="riccardo.bernardi@rocketmail.com",
     description="A watchdog that when launched synchronise the remote directory with the content of the local one",
