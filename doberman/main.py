@@ -62,21 +62,6 @@ class GenericWatcher:
             recursive=True
         )
 
-if __name__ == "__main__":
-    with open("../files_to_monitor.txt", "r") as ff:
-        for i in ff:
-            files_to_monitor += [i.replace("\n","")]
-
-    src_path = sys.argv[1] if len(sys.argv) > 1 else '.'
-    if len(sys.argv) > 2:
-        user = sys.argv[2]
-        pwd = sys.argv[3]
-        host = sys.argv[4]
-        dest = sys.argv[5]
-    for i in os.listdir(src_path):
-        upload(os.path.join(src_path, i))
-    GenericWatcher(src_path).run()
-
 def watch(local_path, file_names, user1, pwd1, host1, dest1):
     global files_to_monitor
     files_to_monitor = file_names
@@ -89,6 +74,21 @@ def watch(local_path, file_names, user1, pwd1, host1, dest1):
     host = host1
     global dest
     dest = dest1
+    for i in os.listdir(src_path):
+        upload(os.path.join(src_path, i))
+    GenericWatcher(src_path).run()
+
+if __name__ == "__main__":
+    with open("../files_to_monitor.txt", "r") as ff:
+        for i in ff:
+            files_to_monitor += [i.replace("\n","")]
+
+    src_path = sys.argv[1] if len(sys.argv) > 1 else '.'
+    if len(sys.argv) > 2:
+        user = sys.argv[2]
+        pwd = sys.argv[3]
+        host = sys.argv[4]
+        dest = sys.argv[5]
     for i in os.listdir(src_path):
         upload(os.path.join(src_path, i))
     GenericWatcher(src_path).run()
